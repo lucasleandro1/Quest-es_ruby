@@ -1,0 +1,2 @@
+STRANGE_STRING = 'ß'
+puts STRANGE_STRING
