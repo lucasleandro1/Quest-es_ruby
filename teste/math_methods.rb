@@ -8,7 +8,27 @@ class MathMethods
         end
     end
 
-    def self.soma(a,b)
+    def self.som(a,b)
       return a + b
+    end
+
+    def self.sub(a,b)
+        return a - b
+    end
+
+    def self.div(a,b)
+        return a/b
+    end
+    
+    def self.mult(a,b)
+        return a*b
+    end
+
+    def self.potencia(a,b)
+        return a**b
+    end 
+    
+    def self.fracao(a,b)
+        return (a*b)/100
     end
 end

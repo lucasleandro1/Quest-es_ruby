@@ -1,4 +1,4 @@
-require_relative "math_methods.rb"
+require_relative "teste/math_methods.rb"
 puts "casos de testes: "
 casos = gets.chomp.to_i
 const = 0
