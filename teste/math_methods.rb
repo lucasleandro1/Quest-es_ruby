@@ -31,4 +31,10 @@ class MathMethods
     def self.fracao(a,b)
         return (a*b)/100
     end
+
+    def self.segmentos(a)
+        agrupados2 = (a * (a - 1))/2
+        agrupados4 = (a * (a - 1) * (a - 2) * (a - 3))/(4*3*2)
+        return result = 1+agrupados2+agrupados4
+    end
 end
