@@ -15,5 +15,4 @@ notas = gets.split.map(&:to_i)
 
 m = percentual_media(notas)
 puts "#{m}%"
-
 end
